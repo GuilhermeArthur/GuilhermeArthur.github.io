@@ -1,2 +1,0 @@
-# GuilhermeArthur.github.io
-site
