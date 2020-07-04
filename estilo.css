@@ -8,3 +8,19 @@
     color: rgb(104, 104, 247);
 }
 
+#prje{
+    padding-top: 100px;
+    padding-bottom: 300px;
+    padding-left: 10px;
+
+}
+
+#total{
+    background-color: rgba(27, 26, 26, 0.212);
+}
+
+#sdev{
+    padding-bottom: 90px;
+    padding-left: 10px;
+}
+
