@@ -27,12 +27,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#nosso_trb">Nosso Trabalho<span class="sr-only"></span></a>
                     </li>
+                    |
                     <li class="nav-item">
                         <a class="nav-link" href="#prje">Projetos</a>
                     </li>
-
+                    |
                     <li class="nav-item">
                         <a class="nav-link" href="#sdev">Sobre o Desenvolvedor</a>
+                    </li>
+                    |
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contt">Contato</a>
                     </li>
                 </ul>
 
@@ -104,13 +109,59 @@
             </p>
             <div class="collapse" id="qmsou">
                 <div class="card card-body" style="background-color: rgba(27, 26, 26, 0.212);">
-                    -Me Chamo, Guilherme Arthur Monte dos Santos, atualmente moro em Recife-PE, tenho 15 anos com algumas certificações na área de Desenvolvimento.
+                    -Me Chamo, Guilherme Arthur Monte dos Santos, atualmente moro em Recife-PE, tenho 15 anos com
+                    algumas certificações na área de Desenvolvimento.
                 </div>
             </div>
         </div>
-
+        <!--   -->
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#confi" role="button" aria-expanded="false"
+                aria-controls="collapseExample">
+                Seus Trabalhos são confiaveis?
+            </a>
+        </p>
+        <div class="collapse" id="confi">
+            <div class="card card-body" style="background-color: rgba(27, 26, 26, 0.212);">
+                -A Confiabilidade vem de cada um! Mas asseguro que meus trabalhos são eficientes.
+            </div>
+        </div>
     </section>
+    <!--Contato-->
+    <section id="contt">
+        <div class="col-md-4 offset-md-4" style="padding-bottom:60px">
+            <h3>Contatos</h3>
+        </div>
+        <div id="forml" style="padding-right: 100px; padding-left: 10px;">
+            <span class="border border-primary">
+                <div class="d-flex flex-row-reverse bd-highlight">
+                    <div class="p-2 bd-highlight">
+                        <h5 style="padding-bottom: 20px;">Formulario para Contato:</h5>
 
+                        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                            action="https://formspree.io/guidevjr@gmail.com" method="post">
+                            <fieldset id="fs-frm-inputs">
+                                <div class="form-group">
+                                    <label for="full-name">Nome Completo</label>
+                                    <input type="text" name="Nome" id="full-name" placeholder="Digite Aqui" required="">
+                                </div>
+                                <div style="padding-bottom: 30px;">
+
+                                    <label for="email-address">Email</label>
+                                    <input type="email" name="Email" id="email-address" placeholder="email@gmail.com"
+                                        required="">
+                                    <input type="hidden" name="_subject" id="email-subject"
+                                        value="Contact Form Submission">
+                                </div>
+                            </fieldset>
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </form>
+                    </div>                              
+                </div>
+            </span>
+        </div>
+        <img src="GuiDev (2).png" alt="">
+    </section>
     <!--JavaScript Criado-->
     <script type="text/JavaScript" src="javascr.js"></script>
     <!--JavaScript BootStrap-->
@@ -121,4 +172,3 @@
 </body>
 
 </html>
-
